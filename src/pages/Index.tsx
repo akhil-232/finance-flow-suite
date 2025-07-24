@@ -11,7 +11,7 @@ const Index = () => {
   const { 
     transactions, 
     categories, 
-    loading: transactionsLoading,
+    loading: 0,
     addTransaction,
     updateTransaction,
     deleteTransaction 
