@@ -1,0 +1,4 @@
+id,user_id,display_name,avatar_url,timezone,default_currency,created_at,updated_at
+550e8400-e29b-41d4-a716-446655440020,550e8400-e29b-41d4-a716-446655440000,John Doe,https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face,America/New_York,USD,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+550e8400-e29b-41d4-a716-446655440021,550e8400-e29b-41d4-a716-446655440011,Jane Smith,https://images.unsplash.com/photo-1494790108755-2616b332c1a1?w=100&h=100&fit=crop&crop=face,Europe/London,GBP,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+550e8400-e29b-41d4-a716-446655440022,550e8400-e29b-41d4-a716-446655440012,Mike Johnson,https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face,America/Los_Angeles,USD,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
