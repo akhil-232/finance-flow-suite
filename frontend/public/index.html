@@ -1,18 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💰</text></svg>">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#4f46e5" />
-    <meta name="description" content="Spend Tracker - Personal Finance Management App" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <title>Spend Tracker</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="💰 Spend Tracker - Full-Stack Personal Finance Management Application. Track expenses, manage budgets, and visualize your financial data with beautiful charts." />
+  <meta name="keywords" content="finance, expense tracker, budget, money management, personal finance, spending tracker" />
+  <meta name="author" content="Spend Tracker Team" />
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="💰 Spend Tracker - Finance Management App" />
+  <meta property="og:description" content="Track expenses, manage budgets, and visualize your financial data with beautiful charts." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://spend-tracker-app.vercel.app" />
+  <meta property="og:image" content="https://spend-tracker-app.vercel.app/og-image.png" />
+  <meta property="og:locale" content="en_US" />
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="💰 Spend Tracker - Finance Management App" />
+  <meta name="twitter:description" content="Track expenses, manage budgets, and visualize your financial data with beautiful charts." />
+  <meta name="twitter:image" content="https://spend-tracker-app.vercel.app/twitter-card.png" />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  
+  <!-- Apple Touch Icon -->
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  
+  <!-- Web App Manifest -->
+  <link rel="manifest" href="/manifest.json" />
+  
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#4f46e5" />
+  <meta name="msapplication-TileColor" content="#4f46e5" />
+  
+  <!-- Google Fonts Preload -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Preload Critical Resources -->
+  <link rel="preload" href="/src/App.css" as="style" />
+  
+  <title>💰 Spend Tracker - Finance Management App</title>
+</head>
+<body>
+  <div id="root"></div>
+  
+  <!-- Loading Fallback -->
+  <noscript>
+    <div style="
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      text-align: center;
+      padding: 2rem;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+    ">
+      <div style="font-size: 4rem; margin-bottom: 1rem;">💰</div>
+      <h1 style="font-size: 2rem; font-weight: 700; margin-bottom: 1rem;">Spend Tracker</h1>
+      <p style="font-size: 1.1rem; margin-bottom: 2rem; opacity: 0.9;">
+        JavaScript is required to run this application.
+      </p>
+      <p style="font-size: 1rem; opacity: 0.8;">
+        Please enable JavaScript in your browser and refresh the page.
+      </p>
+    </div>
+  </noscript>
+  
+  <!-- Analytics (Optional - add your tracking code) -->
+  <!-- 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'GA_MEASUREMENT_ID');
+  </script>
+  -->
+  
+  <script type="module" src="/src/main.tsx"></script>
+</body>
 </html>
